@@ -30,7 +30,7 @@ class Student {
 }
 console.log("\n--- 1. Class and Constructor ---");
 let student1 = new Student(
-    "Moulika",
+    "Alekhya",
     90,
     "CSE (AI & ML)",
     101
@@ -38,7 +38,7 @@ let student1 = new Student(
 student1.displayDetails();
 console.log("\n--- 2. Public Member ---");
 console.log("Public Student Name:", student1.studentName);
-student1.studentName = "Moulika Anumula";
+student1.studentName = "Alekhya Allatipalli";
 console.log("Updated Name:", student1.studentName);
 console.log("\n--- 3. Private Member ---");
 console.log(
@@ -55,7 +55,7 @@ class AIMLStudent extends Student {
     }
 }
 let student2 = new AIMLStudent(
-    "Anu",
+    "Anshu",
     85,
     "CSE (AI & ML)",
     102
