@@ -18,14 +18,14 @@ function displayStudent(name, age) {
         console.log("Age: Not Provided");
     }
 }
-displayStudent("Moulika", 20);
-displayStudent("Anu");
+displayStudent("Alekhya", 20);
+displayStudent("Anshu");
 console.log("\n--- 3. Default Parameter ---");
 function greet(name, message = "Welcome to TypeScript") {
     console.log(name + ", " + message);
 }
-greet("Moulika");
-greet("Moulika", "Have a great day!");
+greet("Alekhya");
+greet("Alekhya", "Have a great day!");
 console.log("\n--- 4. Arrow Function ---");
 const multiply = (a, b) => {
     return a * b;
@@ -59,5 +59,5 @@ const studentResult = (name, marks) => {
         return name + " has Failed";
     }
 };
-console.log(studentResult("Moulika", 85));
+console.log(studentResult("Alekhya", 85));
 console.log("\n===== WEEK 2 COMPLETED SUCCESSFULLY =====");
