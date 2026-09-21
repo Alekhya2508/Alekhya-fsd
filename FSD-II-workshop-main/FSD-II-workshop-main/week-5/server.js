@@ -16,7 +16,7 @@ app.get("/contact", (req, res) => {
 });
 app.get("/student", (req, res) => {
     res.json({
-        name: "Moulika",
+        name:"Alekhya",
         rollNumber: 101,
         department: "CSE (AI & ML)"
     });
