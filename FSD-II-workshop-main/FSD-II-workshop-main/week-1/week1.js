@@ -1,7 +1,7 @@
 "use strict";
 console.log("===== WEEK 1: TYPESCRIPT BASICS =====");
 console.log("\n--- 1. Simple Types ---");
-let studentName = "Moulika";
+let studentName = "Alekhya";
 let age = 20;
 let marks = 92.5;
 let isStudent = true;
@@ -47,7 +47,7 @@ console.log("Breadth: 5");
 console.log("Area of Rectangle:", area);
 console.log("\n--- 6. Student Details ---");
 let rollNumber = 101;
-let name = "Moulika";
+let name = "Alekhya";
 let department = "CSE (AI & ML)";
 let active = true;
 console.log("Roll Number:", rollNumber);
