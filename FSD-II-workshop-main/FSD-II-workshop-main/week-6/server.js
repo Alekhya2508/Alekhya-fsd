@@ -16,8 +16,8 @@ app.use((req, res, next) => {
 });
 
 let students = [
-    { id: 1, name: "Moulika", branch: "CSE" },
-    { id: 2, name: "Ananya", branch: "ECE" }
+    { id: 1, name: "Alekhya", branch: "CSE" },
+    { id: 2, name: "Anshu", branch: "ECE" }
 ];
 
 app.get("/", (req, res) => {
