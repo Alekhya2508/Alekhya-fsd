@@ -16,8 +16,8 @@ function displayStudent(name: string, age?: number): void {
         console.log("Age: Not Provided");
     }
 }
-displayStudent("Moulika", 20);
-displayStudent("Anu");
+displayStudent("Alekhya", 20);
+displayStudent("Anshu");
 console.log("\n--- 3. Default Parameter ---");
 function greet(name: string, message: string = "Welcome to TypeScript"): void {
     console.log(name + ", " + message);
